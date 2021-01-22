@@ -1,0 +1,178 @@
+body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	padding-bottom : 110px;
+}
+
+header {
+	padding: 0;
+	height: 100px;
+	background: url(../image/header.png)no-repeat center top / cover; 
+	border-bottom: 3px solid #a3166c;
+}
+
+section {
+	padding-top: 20px;
+}
+
+footer {
+	position : fixed;
+	bottom : 0;
+	width: 100%;
+
+	padding: 0;
+	height: 100px;
+	background: url(../image/footer.png)no-repeat center top / cover; 
+	text-align: center;
+	color: #fff;
+	border-top: 3px solid #f48c43;
+	padding-top: 10px;
+}
+
+ul {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+li {
+	list-style-type: none;
+}
+
+label {
+	float:left; 
+	padding-right:15px;
+}
+
+input {
+	width: 350px;
+}
+
+
+select {
+	width: 358px;
+	text-align-last: center;
+}
+
+button {
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 14px;
+	letter-spacing: 0.1em;
+	color: #fff;
+	padding: 5px;
+	border-width: thin;
+	border-color: #fff;
+	border-style: solid;
+	text-align: center;
+	background: transparent;
+}
+
+button:hover {
+	color: #f74f60;
+	background: #fff;
+}
+
+button:active {
+  background: #f48024;
+}
+
+.container {
+	width: 1400px;
+	margin: 0 auto; 
+}
+
+header .container {
+	display: flex;
+	align-items: center;
+	padding-top: 10px;
+}
+
+#form{
+	margin-left: 35%;
+}
+
+.menu {
+	display: flex;
+	margin-left: auto;
+}
+
+.menu li a {
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 14px;
+	letter-spacing: 0.1em;
+	color: #fff;
+	padding: 5px;
+	border-width: thin;
+	border-color: #fff;
+	border-style: solid;
+	text-align: center;
+	transition: all 0.5s ease;
+	cursor: pointer;
+}
+
+.menu li a:hover {
+	color: #f74f60;
+	background: #fff;
+}
+
+.menu li {
+	margin-right: 10px;
+}
+
+.name {
+	color:#fff;
+	text-transform: uppercase;
+}
+
+.row {
+	display: flex;
+}
+
+.product {
+	height: 200px;
+	width: 341px;
+	border: 2px solid #d9d9d9;
+	margin-bottom: 20px;
+	margin-right: 12px;
+}
+
+.product:hover {
+	border-width: 2px;
+	border-color: #f5326e;
+}
+
+.checkbox {
+	margin-top: 10px;
+	margin-left: -155px;
+}
+
+.describe {
+	text-align: center;
+}
+
+.user_select {
+	text-align: center;
+}
+
+.field {
+	clear:both; 
+	text-align:right;  
+	line-height:30px;
+}
+
+.main {
+	float:left;
+}
+
+#getdetails {
+	font-size: 10px;
+	color: red;
+	float:none;
+	line-height: 10%;
+    text-align: left;
+    padding-left: 100px;
+}
